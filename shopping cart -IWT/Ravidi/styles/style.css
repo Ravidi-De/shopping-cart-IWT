@@ -1,0 +1,52 @@
+body {
+    background-image: url('../Background image.jfif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+hr .hd{
+    border: 1px black solid;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    background-color: white; 
+}
+ul.coll {
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.coll {
+    float: left;
+}
+
+li a:hover {
+    background-color: red;
+
+}
+
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer {
+    font-family: "Lucida console", "Courier New", Courier, monospace;
+}
